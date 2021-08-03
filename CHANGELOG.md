@@ -1,4 +1,4 @@
-## 1.2.0
+## 1.2.1
 
 - Add milliseconds to timestamp by using remote_syslog_sender_ms (which uses syslog_protocol_ms)
 
