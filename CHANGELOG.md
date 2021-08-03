@@ -1,3 +1,7 @@
+## 1.2.0
+
+- Add milliseconds to timestamp by using remote_syslog_sender_ms (which uses syslog_protocol_ms)
+
 ## 1.0.0
 
 * Support fluentd-0.14 or later features [#24](https://github.com/dlackty/fluent-plugin-remote_syslog/pull/24)

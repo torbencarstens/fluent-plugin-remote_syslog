@@ -1,5 +1,5 @@
 require "test_helper"
-require "fluent/plugin/out_remote_syslog"
+require "fluent/plugin/out_remote_syslog_ms"
 
 class RemoteSyslogOutputTest < Test::Unit::TestCase
   def setup

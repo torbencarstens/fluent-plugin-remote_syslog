@@ -1,4 +1,4 @@
-require "remote_syslog_sender"
+require "remote_syslog_sender_ms"
 
 module Fluent
   module Plugin

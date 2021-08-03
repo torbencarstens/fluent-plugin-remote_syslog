@@ -1,12 +1,10 @@
-# fluent-plugin-remote_syslog
+# fluent-plugin-remote_syslog_ms
 
-[![Build Status](https://travis-ci.org/dlackty/fluent-plugin-remote_syslog.svg?branch=master)](https://travis-ci.org/dlackty/fluent-plugin-remote_syslog)
-
-[Fluentd](http://fluentd.org) plugin for output to remote syslog serivce (e.g. [Papertrail](http://papertrailapp.com/))
+[Fluentd](http://fluentd.org) plugin for output to remote syslog service (e.g. [Papertrail](http://papertrailapp.com/))
 
 ## Requirements
 
-| fluent-plugin-remote_syslog | fluentd                 | ruby   |
+| fluent-plugin-remote_syslog_ms | fluentd                 | ruby   |
 | -------------------         | ---------               | ------ |
 | >= 1.0.0                    | >= v0.14.0 or >= v1.0.0 | >= 2.1 |
 | < 1.0.0                     | >= v0.12.0              | >= 1.9 |
@@ -14,7 +12,7 @@
 ## Installation
 
 ```bash
- fluent-gem install fluent-plugin-remote_syslog
+ fluent-gem install fluent-plugin-remote_syslog_ms
 ```
 
 ## Usage
