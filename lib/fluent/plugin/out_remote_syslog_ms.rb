@@ -102,7 +102,7 @@ module Fluent
         begin
           chunk.open do |io|
             io.each_line do |msg|
-              sender.transmit(msg.chomp!, packet_options)
+              sender.transmit(msg.chomp!, **packet_options)
             end
           end
         rescue
@@ -136,7 +136,7 @@ module Fluent
           sender = RemoteSyslogSender::TcpSender.new(
             host,
             port,
-            options
+            **options
           )
         else
           sender = RemoteSyslogSender::UdpSender.new(
